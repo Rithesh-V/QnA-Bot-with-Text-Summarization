@@ -15,15 +15,18 @@ requests
 bs4
 nltk
 transformers
+
 To install these packages, you can use the following command:
 
-python
-Copy code
+
 pip install requests bs4 nltk transformers
+import nltk
+nltk.download('words')
+nltk.download('punkt')
 Usage
 To use the script, follow these steps:
 
-Run the script using python wikipedia_summarization_qa.py command.
+Run the script using python test.py command.
 Enter the number of topics you want to summarize and ask questions about.
 For each topic, enter the name of the topic as it appears in the Wikipedia URL (e.g. for the page https://en.wikipedia.org/wiki/Artificial_intelligence, enter "Artificial_intelligence").
 Enter the question you want to ask about the topic.
