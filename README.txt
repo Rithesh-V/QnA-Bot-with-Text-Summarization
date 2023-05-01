@@ -64,3 +64,7 @@ answers = answer_questions(summaries, question)
 print(question)
 print("Answer: " ,answers)
 In this example, the script asks the user for the number of topics they want to summarize and ask questions about. For each topic, the user is prompted to enter the name of the topic as it appears in the Wikipedia URL. The script then generates a summary of the Wikipedia page and prompts the user to enter a question. The script then extracts the answer to the question using a Question-Answering algorithm and prints it to the console.
+ 
+ 
+ 
+ Heroku Server requires a payment info to let us create a server, but my payment credentials are not working. So due to unexpected difficulty i could not deploy flask server into it.
