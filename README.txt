@@ -1,7 +1,14 @@
 Wikipedia Summarization and Question Answering
 This is a Python script that allows you to extract summaries and answers from Wikipedia pages. The script is divided into several functions, each responsible for a specific task.
 
+
+
+NOTE!!!! : The code for generating multiple-document summary and Question-Answering model is also ready, please try it once in the python IDE once before trying in the flask server.
+
+
+
 Installation
+
 The following packages are required to run the script:
 
 requests
